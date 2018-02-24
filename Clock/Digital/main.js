@@ -7,7 +7,7 @@ let mainWindow
 
 function createWindow(){
 	mainWindow = new BrowserWindow({width:800, height:600})
-	mainWindow.loadURL('file:/home/darshan/Desktop/FYP/MyTest/Clock/index.html')
+	mainWindow.loadURL('file:/home/darshan/Desktop/FYP/MyTest/Clock/Digital/index.html')
 	//mainWindow.webContents.openDevTools()
 	mainWindow.on('closed', function () {
 		mainWindow = null
