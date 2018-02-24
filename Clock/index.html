@@ -1,5 +1,5 @@
 <!DOCTYPE Html>
-<html>
+<html style="background-color: rgb(0,0,0);">
 <head>
 	<script>
 		function startTime(){
@@ -9,9 +9,13 @@
 			var s = today.getSeconds();
 			m = checkTime(m);
 			s = checkTime(s);
-			document.getElementById('txt').innerHTML=
+			document.getElementById('txt').style.fontFamily = "sans_serif";
+			document.getElementById('txt').style.color = "White";
+			document.getElementById('txt').style.fontSize = "100px";
+			document.getElementById('txt').style.textAlign = "right";
+			document.getElementById('txt').innerHTML= 
 			h + " : " + m + " : " + s;
-			var t = setTimeout(startTime, 500)
+			var t = setTimeout(startTime, 500);
 
 		}
 		function checkTime(i){
