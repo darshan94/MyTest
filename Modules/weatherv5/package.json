@@ -1,0 +1,8 @@
+{
+  "name": "Weather",
+  "version": "4.0",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^1.8.2"
+  }
+}
